@@ -8,5 +8,6 @@ namespace Driver_shay
 {
     internal class dive_log
     {
+        private List<Dive> dive;
     }
 }
