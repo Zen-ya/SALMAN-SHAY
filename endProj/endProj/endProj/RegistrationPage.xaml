@@ -1,0 +1,93 @@
+﻿<Window x:Class="endProj.RegistrationPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:endProj"
+        mc:Ignorable="d"
+        Title="RegistrationPage" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\Elya\Desktop\SALMANC#-JAVA\מבנה נתונים\SALMAN-SHAY\endProj\endProj\endProj\micro.jpg"/>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="FontSize" Value="14"/>
+            <!-- Définir la couleur de la police en jaune -->
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background" Value="LightGoldenrodYellow"/>
+            <Setter Property="Foreground" Value="DarkMagenta"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF005A9E"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="629*"/>
+            <ColumnDefinition Width="171*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Registration" Style="{StaticResource ButtonStyle}" Click="RegistrationButton" Margin="215,336,0,0"/>
+        <TextBox Name="UserToUp" Style="{StaticResource TextBoxStyle}" Text=""  Margin="175,154,0,0"/>
+        <TextBox Name="EmailToUp" Style="{StaticResource TextBoxStyle}" Text="" Margin="175,184,0,0" />
+        <TextBox Name="PhoneToUp" Style="{StaticResource TextBoxStyle}" Text="" Margin="175,214,0,0"/>
+        <PasswordBox Name="Password" 
+             Margin="175,244,250,140" />
+
+
+        <PasswordBox Name="ConfirmationPassword" 
+             Margin="175,280,250,105" />
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="20,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81"><Run Foreground="DarkGoldenrod" Text="user name"/><Run Language="fr-fr" Text="  :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"><Run Foreground="DarkGoldenrod" Text="Phone number"/><Run Language="fr-fr" Text="  :&#x9;&#x9;"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"><Run Foreground="DarkGoldenrod" FlowDirection="RightToLeft" Text="Email"/><Run Language="fr-fr" Text="  :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"><Run Foreground="DarkGoldenrod" Text="Password Confirmation"/><Run Language="fr-fr" Text="  :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"><Run Foreground="DarkGoldenrod" Text="Password"/><Run Language="fr-fr" Text="  :"/></TextBlock>
+        <TextBlock Foreground="DarkGoldenrod" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="149" Width="509" Margin="10,0,0,0" FontFamily="French Script MT" FontSize="16"><Run FontSize="25" FontWeight="Bold" Text="Hello, Explorer!"/><LineBreak/><Run  FontSize="19" FontWeight="Bold"  Text="Enter your personal details and start your journey with us"/><Run Text=" "/><Run FontSize="14" Text=" :"/><LineBreak/><Run Text="&#x9;"/><Run Language="fr-fr" Text="-"/><Run Text="Username: 5-12 small letters in English."/><LineBreak/><Run Text="&#x9;"/><Run Language="fr-fr" Text="-"/><Run Text="Password: "/><Run Text=" "/><Run Text="8-12 characters including one capital letter, one special character, and one number."/><LineBreak/><Run Language="fr-fr" Text="&#x9;-"/><Run Text="A phone number should be separated by a dash (-)."/><LineBreak/><Run Language="fr-fr" Text="&#x9;-"/><Run Text="Email should be in the correct format."/><LineBreak/><Run Language="fr-fr" Text="&#x9;-"/><Run Text="Only  then you can Login"/></TextBlock>
+        <Button Content="Log In Page" Style="{StaticResource ButtonStyle}" Margin="10,336,0,0" Grid.Column="1" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endproj\\datemaneger.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\datemaneger.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endproj\\sql_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\sql_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|c:\\users\\elya\\desktop\\salmanc#-java\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\salman-shay\\endproj\\endproj\\endproj\\datemaneger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\datemaneger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endproj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endproj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endproj\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endproj\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7A587-9025-4287-B842-40D01AD451FF}|endProj\\endProj.csproj|solutionrelative:endproj\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "endProj\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\MainWindow.xaml",
+              "RelativeToolTip": "endProj\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T17:24:19.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "endProj\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\MainWindow.xaml.cs",
+              "RelativeToolTip": "endProj\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:35:13.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "endProj\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\RegistrationPage.xaml",
+              "RelativeToolTip": "endProj\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T17:24:09.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "endProj\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "endProj\\RegistrationPage.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:24:08.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateManeger.xaml",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\DateManeger.xaml",
+              "RelativeDocumentMoniker": "endProj\\DateManeger.xaml",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\DateManeger.xaml",
+              "RelativeToolTip": "endProj\\DateManeger.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T17:24:23.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DateManeger.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\DateManeger.xaml.cs",
+              "RelativeDocumentMoniker": "endProj\\DateManeger.xaml.cs",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\DateManeger.xaml.cs",
+              "RelativeToolTip": "endProj\\DateManeger.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:43:20.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sql_main.cs",
+              "DocumentMoniker": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\Sql_main.cs",
+              "RelativeDocumentMoniker": "endProj\\Sql_main.cs",
+              "ToolTip": "C:\\Users\\Elya\\Desktop\\SALMANC#-JAVA\\\u05DE\u05D1\u05E0\u05D4 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\SALMAN-SHAY\\endProj\\endProj\\endProj\\Sql_main.cs",
+              "RelativeToolTip": "endProj\\Sql_main.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T11:48:01.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+﻿<Window x:Class="endProj.DateManeger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="DateManeger" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\Elya\Desktop\SALMANC#-JAVA\מבנה נתונים\SALMAN-SHAY\endProj\endProj\endProj\micro.jpg"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background" Value="LightYellow"/>
+            <Setter Property="Foreground" Value="DarkMagenta"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF005A9E"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+        </Style>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button Content="Show all user" Style="{StaticResource ButtonStyle}" Margin="10,371,0,0"/>
+        <Button Content="Show all rooms" Style="{StaticResource ButtonStyle}" Margin="215,371,0,0" />
+        <Button Content="Reset password" Style="{StaticResource ButtonStyle}" Margin="422,371,0,0"/>
+        <Button Content="Delete user" Style="{StaticResource ButtonStyle}" Margin="615,371,0,0"/>
+        <TextBox Style="{StaticResource TextBoxStyle}" Margin="10,45,0,0" TextWrapping="Wrap" Text="" Width="229" />
+        <TextBox Style="{StaticResource TextBoxStyle}" Margin="496,45,0,0" TextWrapping="Wrap" Text="" Width="238"/>
+        <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,5,0,0" Width="300"><Run Text="Enter username to reset password"/><Run Language="fr-fr" Text=" :"/></TextBlock>
+        <TextBlock Style="{StaticResource TextBlockStyle}" Margin="496,9,0,0" Width="300"><Run Text="Enter phone number to delete user"/><Run Language="fr-fr" Text=" :"/></TextBlock>
+        <Label  Content="En'Chanter" VerticalAlignment="Top" Height="49" Margin="-17,-4,0,0" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="533" FontFamily="French Script MT">
+            <Label.ContentTemplate>
+                <DataTemplate>
+                    <TextBlock TextDecorations="Underline" Text="{Binding}" FontSize="24" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" FontFamily="italic" TextAlignment="Center" Width="756"></TextBlock>
+                </DataTemplate>
+            </Label.ContentTemplate>
+        </Label>
+        <DataGrid Background="LightGoldenrodYellow" Name="grid" AutoGenerateColumns="True"  Margin="0,113,237,68" />
+
+    </Grid>
+</Window>
